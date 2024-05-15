@@ -1,110 +1,74 @@
-# Task Manager
+<h1>Task Manager</h1>
 
-This project consists of a RESTful API for a task manager application built with Express and MongoDB, as well as a task manager application built with React and Redux Toolkit.
+<p>This project consists of a RESTful API for a task manager application built with Express and MongoDB, as well as a task manager application built with React and Redux Toolkit.</p>
 
-## Task Manager Test API
+<h2>Getting Started</h2>
 
-### Prerequisites
+<h3>Prerequisites</h3>
 
-Before running the API, ensure you have the following installed on your machine:
-- Node.js
-- MongoDB
+<p>Before you begin, ensure you have met the following requirements:</p>
 
-### Installation
+<ul>
+  <li>Node.js installed on your local machine.</li>
+  <li>npm or yarn package manager installed.</li>
+</ul>
 
-Clone this repository to your local machine:
-```bash
-git clone <repository-url>
+<h3>Installation and Usage</h3>
 
-Navigate to the project directory:
+<p>To get started, follow these steps:</p>
 
-bash
-Copy code
-cd <project-directory>
-Install dependencies:
+<ol>
+  <li>Clone the repository, navigate to the project directory, and install dependencies for both client and server:</li>
+</ol>
 
-bash
-Copy code
+<pre><code>git clone https://github.com/AmineBenzaazaa/test-tasks-management.git &amp;&amp;
+cd test-tasks-management &amp;&amp;
+cd client &amp;&amp;
+npm install &amp;&amp;
+cd ../server &amp;&amp;
 npm install
-Set up environment variables:
-Create a .env file in the root directory of your project and define the following variables:
+</code></pre>
 
-dotenv
-Copy code
-MONGO=<your-mongodb-connection-string>
-JWT_SECRET=<your-jwt-secret-key>
-Running the API
-Start your MongoDB server.
+<h4>Running the Client</h4>
 
-Run the API:
+<ol>
+  <li>Navigate to the client directory:</li>
+</ol>
 
-bash
-Copy code
-npm start
-The API will start running on port 3000 by default.
+<pre><code>cd ../client
+</code></pre>
 
-Environment Variables
-dotenv
-Copy code
-MONGO="your-mongodb-connection-string"
-JWT_SECRET="your-jwt-secret-key"
-Task Manager Test
-Installation
-Before running the project, ensure you have Node.js and npm (or yarn) installed on your machine.
+<ol start="2">
+  <li>Start the development server:</li>
+</ol>
 
-Clone this repository to your local machine:
+<pre><code>npm run dev
+</code></pre>
 
-bash
-Copy code
-git clone <repository-url>
-Navigate to the project directory:
+<p>or</p>
 
-bash
-Copy code
-cd <project-directory>
-Install dependencies:
+<pre><code>yarn dev
+</code></pre>
 
-bash
-Copy code
-npm install
-# or
-yarn install
-Available Scripts
-In the project directory, you can run the following scripts:
+<p>Open your browser and navigate to <a href="http://localhost:3000">http://localhost:3000</a> to view the client application.</p>
 
-Development Mode:
-bash
-Copy code
-npm run dev
-# or
-yarn dev
-Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+<h4>Running the Server</h4>
 
-Build:
-bash
-Copy code
-npm run build
-# or
-yarn build
-Builds the app for production to the dist folder.
+<ol>
+  <li>Navigate to the server directory:</li>
+</ol>
 
-Lint:
-bash
-Copy code
-npm run lint
-# or
-yarn lint
-Lints all JavaScript and JSX files using ESLint.
+<pre><code>cd ../server
+</code></pre>
 
-Preview Production Build:
-bash
-Copy code
-npm run preview
-# or
-yarn preview
-Previews the production build locally.
+<ol start="2">
+  <li>Start the server:</li>
+</ol>
 
-rust
-Copy code
+<pre><code>npm start
+</code></pre>
 
-This merged README provides comprehensive instructions for both the API and the React application. Adjustments can be made as needed for clarity or additional details.
+<p>or</p>
+
+<pre><code>yarn start
+</code></pre>
