@@ -41,7 +41,7 @@ export default function SignIn() {
       dispatch(signInFailure(error));
     }
   };
-  
+
   return (
     <div className="mt-20  max-w-lg mx-auto border-neutral-200 border rounded-lg px-6 py-12 lg:px-8">
       <div className="flex min-h-full flex-1 flex-col justify-center ">
@@ -55,10 +55,10 @@ export default function SignIn() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           {error ? (
             <div
-              class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 "
+              className="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 "
               role="alert"
             >
-              <span class="font-medium">
+              <span className="font-medium">
                 {" "}
                 {error ? error.message : "Something went wrong!"}
               </span>
