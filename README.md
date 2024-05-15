@@ -72,3 +72,12 @@ npm install
 
 <pre><code>yarn start
 </code></pre>
+
+<h4>Environment Variables</h4>
+<p>Ensure to replace the placeholder values in the .env file with your actual MongoDB connection string and JWT secret key.</p>
+
+<p>dotenv
+Copy code
+MONGO="your-mongodb-connection-string"
+JWT_SECRET="your-jwt-secret-key"</p>
+
