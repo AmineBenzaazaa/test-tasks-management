@@ -62,6 +62,13 @@ npm install
 </code></pre>
 
 <ol start="2">
+  <li>Set up environment variables:</li>
+</ol>
+
+<pre><code>dotenv MONGO="your-mongodb-connection-string" JWT_SECRET="your-jwt-secret-key"
+</code></pre>
+
+<ol start="3">
   <li>Start the server:</li>
 </ol>
 
@@ -72,12 +79,3 @@ npm install
 
 <pre><code>yarn start
 </code></pre>
-
-<h4>Environment Variables</h4>
-<p>Ensure to replace the placeholder values in the .env file with your actual MongoDB connection string and JWT secret key.</p>
-
-<p>dotenv
-Copy code
-MONGO="your-mongodb-connection-string"
-JWT_SECRET="your-jwt-secret-key"</p>
-
