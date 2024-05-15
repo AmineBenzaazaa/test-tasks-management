@@ -102,7 +102,7 @@ export default function Home() {
                       <TrashIcon className="w-5 h-5 text-red-500 hover:bg-red-50 rounded-sm" />
                     </button>
                     <button onClick={() => handleEditTask(task)}>
-                      <Pencil2Icon className="w-5 h-5 text-blue-500 hover:bg-blue-50 rounded-sm" />
+                      <Pencil2Icon className="w-5 h-5  text-blue-500 hover:bg-blue-50 rounded-sm" />
                     </button>
                   </div>
                 </div>
